@@ -858,10 +858,11 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070003;
+        public static final int abc_search_url_text_holo=0x7f070004;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int tb_munion_item_force=0x7f070003;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1078,6 +1079,32 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
+        public static final int tb_munion_icon=0x7f020058;
+        public static final int tb_munion_item_selector=0x7f020059;
+        public static final int umeng_common_gradient_green=0x7f02005a;
+        public static final int umeng_common_gradient_orange=0x7f02005b;
+        public static final int umeng_common_gradient_red=0x7f02005c;
+        public static final int umeng_update_btn_check_off_focused_holo_light=0x7f02005d;
+        public static final int umeng_update_btn_check_off_holo_light=0x7f02005e;
+        public static final int umeng_update_btn_check_off_pressed_holo_light=0x7f02005f;
+        public static final int umeng_update_btn_check_on_focused_holo_light=0x7f020060;
+        public static final int umeng_update_btn_check_on_holo_light=0x7f020061;
+        public static final int umeng_update_btn_check_on_pressed_holo_light=0x7f020062;
+        public static final int umeng_update_button_cancel_bg_focused=0x7f020063;
+        public static final int umeng_update_button_cancel_bg_normal=0x7f020064;
+        public static final int umeng_update_button_cancel_bg_selector=0x7f020065;
+        public static final int umeng_update_button_cancel_bg_tap=0x7f020066;
+        public static final int umeng_update_button_check_selector=0x7f020067;
+        public static final int umeng_update_button_close_bg_selector=0x7f020068;
+        public static final int umeng_update_button_ok_bg_focused=0x7f020069;
+        public static final int umeng_update_button_ok_bg_normal=0x7f02006a;
+        public static final int umeng_update_button_ok_bg_selector=0x7f02006b;
+        public static final int umeng_update_button_ok_bg_tap=0x7f02006c;
+        public static final int umeng_update_close_bg_normal=0x7f02006d;
+        public static final int umeng_update_close_bg_tap=0x7f02006e;
+        public static final int umeng_update_dialog_bg=0x7f02006f;
+        public static final int umeng_update_title_bg=0x7f020070;
+        public static final int umeng_update_wifi_disable=0x7f020071;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1091,8 +1118,9 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05003c;
+        public static final int action_settings=0x7f05004d;
         public static final int activity_chooser_view_content=0x7f050025;
+        public static final int ad_image=0x7f05003c;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
         public static final int checkbox=0x7f05002d;
@@ -1138,6 +1166,22 @@ containing a value of this type.
         public static final int tabMode=0x7f050002;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
+        public static final int umeng_common_icon_view=0x7f05003d;
+        public static final int umeng_common_notification=0x7f050041;
+        public static final int umeng_common_notification_controller=0x7f05003e;
+        public static final int umeng_common_progress_bar=0x7f050044;
+        public static final int umeng_common_progress_text=0x7f050043;
+        public static final int umeng_common_rich_notification_cancel=0x7f050040;
+        public static final int umeng_common_rich_notification_continue=0x7f05003f;
+        public static final int umeng_common_title=0x7f050042;
+        public static final int umeng_update_content=0x7f050048;
+        public static final int umeng_update_frame=0x7f050045;
+        public static final int umeng_update_id_cancel=0x7f05004b;
+        public static final int umeng_update_id_check=0x7f050049;
+        public static final int umeng_update_id_close=0x7f050047;
+        public static final int umeng_update_id_ignore=0x7f05004c;
+        public static final int umeng_update_id_ok=0x7f05004a;
+        public static final int umeng_update_wifi_indicator=0x7f050046;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1194,11 +1238,28 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_main=0x7f030018;
         public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int tb_munion_aditem=0x7f03001a;
+        public static final int umeng_common_download_notification=0x7f03001b;
+        public static final int umeng_update_dialog=0x7f03001c;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
     }
     public static final class string {
+        public static final int UMAppUpdate=0x7f0a0028;
+        public static final int UMBreak_Network=0x7f0a0020;
+        public static final int UMDialog_InstallAPK=0x7f0a002c;
+        public static final int UMGprsCondition=0x7f0a0026;
+        public static final int UMIgnore=0x7f0a002a;
+        public static final int UMNewVersion=0x7f0a0022;
+        public static final int UMNotNow=0x7f0a0029;
+        public static final int UMTargetSize=0x7f0a0025;
+        public static final int UMToast_IsUpdating=0x7f0a002b;
+        public static final int UMUpdateCheck=0x7f0a002d;
+        public static final int UMUpdateContent=0x7f0a0023;
+        public static final int UMUpdateNow=0x7f0a0027;
+        public static final int UMUpdateSize=0x7f0a0024;
+        public static final int UMUpdateTitle=0x7f0a0021;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -1242,6 +1303,22 @@ containing a value of this type.
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
         public static final int hello_world=0x7f0a000e;
+        public static final int tb_munion_tip_download_prefix=0x7f0a0010;
+        public static final int umeng_common_action_cancel=0x7f0a0015;
+        public static final int umeng_common_action_continue=0x7f0a0014;
+        public static final int umeng_common_action_info_exist=0x7f0a0011;
+        public static final int umeng_common_action_pause=0x7f0a0013;
+        public static final int umeng_common_download_failed=0x7f0a001b;
+        public static final int umeng_common_download_finish=0x7f0a001c;
+        public static final int umeng_common_download_notification_prefix=0x7f0a0016;
+        public static final int umeng_common_icon=0x7f0a001f;
+        public static final int umeng_common_info_interrupt=0x7f0a0012;
+        public static final int umeng_common_network_break_alert=0x7f0a001a;
+        public static final int umeng_common_patch_finish=0x7f0a001d;
+        public static final int umeng_common_pause_notification_prefix=0x7f0a0017;
+        public static final int umeng_common_silent_download_finish=0x7f0a001e;
+        public static final int umeng_common_start_download_notification=0x7f0a0018;
+        public static final int umeng_common_start_patch_notification=0x7f0a0019;
     }
     public static final class style {
         /** 
