@@ -29,6 +29,20 @@
             android:name="UMENG_CHANNEL"
             android:value="Channel ID" />
 
+        <!-- 友盟消息推送 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56cfe6a8e0f55a9131000261" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="c54b7aa525abba5cb6490b98400f97fd" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID" >
+        </meta-data>
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
@@ -39,6 +53,7 @@
             </intent-filter>
         </activity>
 
+        <!-- 友盟更新 -->
         <service
             android:name="com.umeng.update.net.DownloadingService"
             android:process=":DownloadingService" >
@@ -48,6 +63,9 @@
             android:name="com.umeng.update.UpdateDialogActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
+
+        <!-- 友盟消息推送 -->
+
     </application>
 
 </manifest>
